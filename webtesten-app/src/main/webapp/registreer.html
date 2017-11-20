@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>(JavaScript is uitgeschakeld)</title>
+<!-- <link href="bootstrap/css/bootstrap.css" rel="stylesheet"> -->
+</head>
+<body>
+	<div class="hero-unit">
+		<h1>(JavaScript is uitgeschakeld)</h1>
+	</div>
+	<div class="span12">
+		<div>
+			<span class="label label-important">(JavaScript is
+				uitgeschakeld)</span>
+		</div>
+
+		<form id="registratieformulier" class="form-horizontal" method="post">
+			<div class="control-group">
+				<label class="control-label" for="registratieGebruikersnaam">Gebruikersnaam</label>
+				<div class="controls">
+					<input type="text" name="registratieGebruikersnaam"
+						placeholder="Gebruikersnaam">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="registratieEmail">Email</label>
+				<div class="controls">
+					<input type="text" name="registratieEmail" placeholder="Email">
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="controls">
+					<button id="registreer" type="submit" class="btn btn-success">Registreer</button>
+				</div>
+			</div>
+		</form>
+
+		<form id="activatieformulier" class="form-horizontal" method="post">
+			<p>Bedankt voor uw registratie.</p>
+			<p>Voer uw gebruikersnaam en de via email verzonden activatiecode
+				in en activeer uw account!</p>
+			<div class="control-group">
+				<label class="control-label" for="activatieGebruikersnaam">Gebruikersnaam</label>
+				<div class="controls">
+					<input type="text" name="activatieGebruikersnaam"
+						placeholder="Gebruikersnaam">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="activatiecode">Activatiecode</label>
+				<div class="controls">
+					<input type="text" name="activatiecode" placeholder="Activatiecode">
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="controls">
+					<button id="activeer" type="submit" class="btn btn-success">Activeer</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="resources/js/registreer.js" type="text/javascript"></script>
+</body>
+</html>
